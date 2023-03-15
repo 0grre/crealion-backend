@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_formulaires",
+  "info": {
+    "displayName": "Formulaire",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.block",
+      "required": true
+    },
+    "subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sujets",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

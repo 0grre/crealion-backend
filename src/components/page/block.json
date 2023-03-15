@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_blocks",
+  "info": {
+    "displayName": "Field",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
