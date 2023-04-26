@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "shows",
+  "collectionName": "shops",
   "info": {
-    "singularName": "show",
-    "pluralName": "shows",
-    "displayName": "Show",
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop",
     "description": ""
   },
   "options": {
@@ -32,22 +32,6 @@
         }
       },
       "type": "string",
-      "required": true
-    },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
       "required": true
     }
   }

@@ -9,11 +9,12 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-email": "4.7",
     "@strapi/plugin-i18n": "4.7",
     "@strapi/plugin-users-permissions": "4.7",
+    "@strapi/provider-email-sendgrid": "^4.9.2",
     "@strapi/strapi": "4.7",
     "better-sqlite3": "8.0.1"
   },
